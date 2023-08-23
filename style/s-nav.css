@@ -1,0 +1,27 @@
+ /* this  file for side nav section */
+ body{
+    position: relative;
+ }
+ #snav{
+    display:  none;
+    z-index: 2;
+    position: absolute;
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding-top: 80px;
+    height: 100%;
+    width: 300px;
+    background-color: #ffffff;
+    border-right: .5px solid rgb(199, 199, 199);
+ }
+
+ .sdd{
+    display: flex;
+    align-items: center;
+    background: #bf3939;
+ }
+
+ .sdd  i{
+    padding: 10px;
+}
