@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="./style/s-nav.css">
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/s-nav.css">
     <script src="./main.js"></script>
     <title>Travel</title>
 </head>
@@ -18,7 +17,7 @@
     <div class="navb row  justify-content-between">
         <!-- name and togle -->
         <div class="col-auto ">
-            <button onclick="navOn()" ><i class="fa-solid fa-bars bar" style="color: #000000;"></i></button>
+            <button onclick="navOn()"><i class="fa-solid fa-bars bar" style="color: #000000;"></i></button>
             <img height="27px" class="name" src="./images/googletext.png" alt="google">
         </div>
         <!-- tabs -->
@@ -54,30 +53,46 @@
         </div>
     </div>
     <!-- side nav -->
-    <div class="container " id="snav">
-        <div class="row">
-            <div class="col-12 ">
-                <div class="tabs d-block col mt-3  ">
-                    <div class="stab sdd m-3">
-                        <i class="fa-solid fa-earth-americas"></i>
-                        <span>Explore</span>
-                    </div>
-                    <div class="stab sdd m-3">
-                        <i class="fa-solid fa-camera-retro"></i>
-                        <span>Things to do</span>
-                    </div>
-                    <div class="stab sdd m-3">
-                        <i class="fa-solid fa-plane"></i>
-                        <span>Flights</span>
-                    </div>
-                    <div class="stab sdd m-3">
-                        <i class="fa-solid fa-bed"></i>
-                        <span>Hotels</span>
-                    </div>
-                    <div class="stab sdd m-3">
-                        <i class="fa-solid fa-house-chimney"></i>
-                        <span>Vacation rentals</span>
-                    </div>
+    <div class="container p-0  " id="snav">
+        <div class="row h-100 p-0">
+            <div class="tabs d-block col">
+                <div class="stab sdd sddActive m-3">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <span>Explore</span>
+                </div>
+                <div class="stab sdd m-3">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <span>Things to do</span>
+                </div>
+                <div class="stab sdd m-3">
+                    <i class="fa-solid fa-plane"></i>
+                    <span>Flights</span>
+                </div>
+                <div class="stab sdd m-3">
+                    <i class="fa-solid fa-bed"></i>
+                    <span>Hotels</span>
+                </div>
+                <div class="stab sdd m-3">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span>Vacation rentals</span>
+                </div>
+                <div class="stab border-top sdd m-3">
+                    <i class=" fa-chart-line"></i>
+                    <span>Tracked flight prices</span>
+                </div>
+            </div>
+            <div class="tabs d-block col-12">
+                <div class="stab border-top sdd m-3">
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Travel settings</span>
+                </div>
+                <div class="stab sdd m-3">
+                    <i class="fa-solid fa-message"></i>
+                    <span>Feedback</span>
+                </div>
+                <div class="stab sdd m-3">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <span>Help</span>
                 </div>
             </div>
         </div>
